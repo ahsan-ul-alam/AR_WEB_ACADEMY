@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: nunito-sans, noto-serif;
+}
+
+.navbar {
+    position: fixed;
+    width: 100% !important;
+    background: rgb(200, 14, 29);
+    background: linear-gradient(90deg, rgba(200, 14, 29, 0.8939950980392157) 0%, rgba(238, 66, 102, 1) 12%, rgba(238, 66, 85, 1) 52%, rgba(220, 41, 58, 1) 89%, rgba(200, 14, 29, 0.938813025210084) 100%);
+}
+
+.nav-link {
+    font-size: 26px;
+    color: #fff !important;
+    transition: .3s ease-in-out !important;
+}
+
+.nav-item {
+    transition: .3s ease-in-out !important;
+}
+
+.nav-item:hover {
+    text-decoration: overline 4px white;
+}
+
+/* header parts ends here  */
+
+.hero {
+    /* --------------- */
+    height: 75vh;
+    background: url('../image/hero-bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-heading {
+    font-size: 72px;
+    margin-bottom: 15px;
+}
+
+
+
+
+@keyframes slide {
+    0% {
+        top: 0px;
+    }
+
+    50% {
+        top: 10px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Additional css here  */
+.btn-head {
+    background: #000;
+    padding: 6px 9px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 26px;
+}
+
+.collapse {
+    z-index: 999;
+}
+
+#ltm {
+    margin-left: 30% !important;
+}
+.devider{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.projectImage ,.card-img-top{
+    height: 200px;
+    width: 300px;
+}
